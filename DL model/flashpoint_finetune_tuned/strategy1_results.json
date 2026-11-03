@@ -1,0 +1,192 @@
+[
+  {
+    "fold": 1,
+    "best_tunable_params": {
+      "learning_rate": 0.0001,
+      "batch_size": 32,
+      "dropout": 0.1
+    },
+    "best_full_params": {
+      "hidden_size": 300,
+      "depth": 4,
+      "num_attention_heads": 8,
+      "cnn_filters1": 64,
+      "cnn_filters2": 128,
+      "cnn_kernel_size": 7,
+      "dropout": 0.1,
+      "ffn_hidden_size": 300
+    },
+    "all_metrics": {
+      "train": {
+        "loss": 0.020205993972280446,
+        "rmse": 7.593248641178413,
+        "mae": 6.073174476623535,
+        "r2": 0.9810681343078613
+      },
+      "val": {
+        "loss": 0.021419133991003036,
+        "rmse": 8.120209675604519,
+        "mae": 6.014537334442139,
+        "r2": 0.9701519012451172
+      },
+      "test": {
+        "loss": 0.043322401121258736,
+        "rmse": 11.54902878678414,
+        "mae": 7.868748188018799,
+        "r2": 0.9471883177757263
+      }
+    }
+  },
+  {
+    "fold": 2,
+    "best_tunable_params": {
+      "learning_rate": 0.0001,
+      "batch_size": 32,
+      "dropout": 0.05
+    },
+    "best_full_params": {
+      "hidden_size": 300,
+      "depth": 4,
+      "num_attention_heads": 8,
+      "cnn_filters1": 64,
+      "cnn_filters2": 128,
+      "cnn_kernel_size": 7,
+      "dropout": 0.05,
+      "ffn_hidden_size": 300
+    },
+    "all_metrics": {
+      "train": {
+        "loss": 0.006956773851176395,
+        "rmse": 4.425625885057085,
+        "mae": 3.4917352199554443,
+        "r2": 0.9933177828788757
+      },
+      "val": {
+        "loss": 0.02017875062301755,
+        "rmse": 8.28676343955966,
+        "mae": 6.035356521606445,
+        "r2": 0.9685863852500916
+      },
+      "test": {
+        "loss": 0.037626481615006924,
+        "rmse": 10.015511879602021,
+        "mae": 7.124516010284424,
+        "r2": 0.963759183883667
+      }
+    }
+  },
+  {
+    "fold": 3,
+    "best_tunable_params": {
+      "learning_rate": 0.0001,
+      "batch_size": 32,
+      "dropout": 0.01
+    },
+    "best_full_params": {
+      "hidden_size": 300,
+      "depth": 4,
+      "num_attention_heads": 8,
+      "cnn_filters1": 64,
+      "cnn_filters2": 128,
+      "cnn_kernel_size": 7,
+      "dropout": 0.01,
+      "ffn_hidden_size": 300
+    },
+    "all_metrics": {
+      "train": {
+        "loss": 0.032191579723182845,
+        "rmse": 9.605670891147737,
+        "mae": 7.346254825592041,
+        "r2": 0.9673038125038147
+      },
+      "val": {
+        "loss": 0.027036019414663316,
+        "rmse": 8.752357819183327,
+        "mae": 6.496488094329834,
+        "r2": 0.964133620262146
+      },
+      "test": {
+        "loss": 0.07830941801269849,
+        "rmse": 13.590126133348155,
+        "mae": 9.338031768798828,
+        "r2": 0.941945493221283
+      }
+    }
+  },
+  {
+    "fold": 4,
+    "best_tunable_params": {
+      "learning_rate": 0.0001,
+      "batch_size": 32,
+      "dropout": 0.08
+    },
+    "best_full_params": {
+      "hidden_size": 300,
+      "depth": 4,
+      "num_attention_heads": 8,
+      "cnn_filters1": 64,
+      "cnn_filters2": 128,
+      "cnn_kernel_size": 7,
+      "dropout": 0.08,
+      "ffn_hidden_size": 300
+    },
+    "all_metrics": {
+      "train": {
+        "loss": 0.012129619114977471,
+        "rmse": 5.860970160470349,
+        "mae": 4.61434268951416,
+        "r2": 0.9881944060325623
+      },
+      "val": {
+        "loss": 0.017247051931917667,
+        "rmse": 7.402769147984396,
+        "mae": 5.617310523986816,
+        "r2": 0.9766182899475098
+      },
+      "test": {
+        "loss": 0.03801738998542229,
+        "rmse": 11.149166989535447,
+        "mae": 7.7098283767700195,
+        "r2": 0.9541365504264832
+      }
+    }
+  },
+  {
+    "fold": 5,
+    "best_tunable_params": {
+      "learning_rate": 1e-05,
+      "batch_size": 32,
+      "dropout": 0.1
+    },
+    "best_full_params": {
+      "hidden_size": 300,
+      "depth": 4,
+      "num_attention_heads": 8,
+      "cnn_filters1": 64,
+      "cnn_filters2": 128,
+      "cnn_kernel_size": 7,
+      "dropout": 0.1,
+      "ffn_hidden_size": 300
+    },
+    "all_metrics": {
+      "train": {
+        "loss": 0.01201552533380249,
+        "rmse": 5.88958747286989,
+        "mae": 4.685311794281006,
+        "r2": 0.9876405000686646
+      },
+      "val": {
+        "loss": 0.022768549155443907,
+        "rmse": 7.868897268357918,
+        "mae": 5.397721767425537,
+        "r2": 0.9739769697189331
+      },
+      "test": {
+        "loss": 0.0714582980920871,
+        "rmse": 13.006462251616862,
+        "mae": 8.865266799926758,
+        "r2": 0.9454171657562256
+      }
+    }
+  }
+]
